@@ -1,0 +1,378 @@
+<!doctype html>
+<div id="quangcao">
+  <img src="IMG/TrangChu/A-Patriot-missile-launcher-fro-3150-8296-1772632250.webp">
+  <button id="btn-close">X</button>
+</div>
+<script>
+  window.onload = function() {
+    document.getElementById('quangcao').style.display = 'block';
+  }
+
+  document.getElementById('btn-close').addEventListener('click', function() {
+    document.getElementById('quangcao').style.display = 'none';
+  });
+
+  document.getElementById('btn-show-ads').addEventListener('click', function() {
+    document.getElementById('quangcao').style.display = 'block';
+  });
+</script>
+<html><head>
+<meta charset="utf-8">
+<title>TH29.25</title>
+    <link rel="stylesheet" type="text/css" href="Style2.css">
+	<link rel="stylesheet" type="text/css" href="Slides.css">
+	</head>
+
+<body>
+	<div id="header">
+	<img src="IMG/Thiet Ke/bao-dan-tri-tai-app-700.jpg" height="450px" width="100%">
+	<div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="IMG/slides/5o3a7674jpg-1770209661406.webp"  style="width:100%">
+  <div class="text">Đặc phái viên của Tổng Bí thư Tô Lâm gặp ông Tập Cận Bình</div>
+		</div>
+  <div class="mySlides fade">
+    <img src="IMG/slides/6225699309092013682960063339944404357609287njpg-1770205993513.webp"  style="width:100%">
+  <div class="text">Bộ Nội vụ thông tin về việc tăng lương và thưởng Tết</div>
+		</div>
+  <div class="mySlides fade">
+    <img src="IMG/slides/image-25png-1770202434677.webp" style="width:100%">
+  <div class="text">Bắt đầu vòng 2 cuộc đàm phán hòa bình ba bên Nga - Ukraine - Mỹ</div>
+		</div>
+		
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+<div style="text-align:center; mảgin-top: 10px;">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+	<script>
+let slideIndex = 1;
+let autoTimer;
+
+showSlides(slideIndex);
+//startAuto();
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+
+  if (n > slides.length) slideIndex = 1;
+  if (n < 1) slideIndex = slides.length;
+
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+
+  for (i = 0; i < dots.length; i++) {
+    dots[i].classList.remove("active");
+  }
+
+  slides[slideIndex - 1].style.display = "block";
+  dots[slideIndex - 1].classList.add("active");
+}
+function resetAuto(){
+	clearInterval(autoTimer);
+}
+</script>
+	<div class="menu1">
+		<a href="#"> <img src="IMG/Thiet Ke/Screenshot 2026-01-21 204059.png" width="120px" height="45px"> </a> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="#"> <img src="IMG/Thiet Ke/Screenshot 2026-01-21 204019.png" width="150px" height="45px"></a>
+		<hr>
+		<a href="#"> <img src="IMG/Thiet Ke/Screenshot 2026-01-21 204121.png" width="110px" height="45px"></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="#"> <img src="IMG/Thiet Ke/Screenshot 2026-01-21 205902.png" width="110px" height="42px"></a>
+		<hr>
+		<a href="#"> <img src="IMG/Thiet Ke/Screenshot 2026-01-21 205921.png" width="140px" height="42px"></a>
+		<hr>
+		<a href="#"> <img src="IMG/Thiet Ke/Screenshot 2026-01-21 210331.png" width="170px" height="42px"></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="#"> <img src="IMG/Thiet Ke/Screenshot 2026-01-21 210356.png" width="140px" height="45px"></a>
+		<a href="#"> <img src="IMG/Thiet Ke/Screenshot 2026-01-21 210417.png" width="40px" height="30px"></a>
+	</div>
+		<div class="menu2">
+		<a href="TrangChu.html"> <img src="IMG/TrangChu/Screenshot 2026-01-21 203331.png" width="25px" height="20px"></a>
+		<a href="MoiNhat.html"> Mới nhất </a>
+		<a href="TheGioi.html"> Thế Giới </a>
+		<a href="ThoiSu.html"> Thời sự </a>
+		<a href="PhapLuat.html"> Pháp Luật </a>
+		<a href="SucKhoe.html"> Sức Khỏe </a>
+		<a href="TheThao.html"> Thể Thao </a>
+		<a href="DuLich.html"> Du lịch </a>
+		<a href="KinhDoanh.html"> Kinh doanh </a>
+		<a href="BDS.html"> bất động sản </a>
+		<a href="GiaiTri.html"> giải trí </a>
+		<a href="XeCo.html"> xe cộ </a>
+		<a href="CongNghe.html"> công nghệ </a>
+		<a href="NoiVu.html"> nội vụ </a>
+		<a href="NhanAi.html"> nhân ái </a>
+	  </div>
+</div>
+</body>
+</html>
+    <div style="clear: both;"></div>
+<div id="chia">
+       <div class="left">
+           <div class="anh1">
+        <img src="IMG/TrangChu/bo-xay-dung-phan-hoi-cac-doanh-nghiep-ve-du-an-duong-sat-cao-toc-bac-nam-1768995550381.webp" width="455px" height="290px">
+         <h4> Bộ Xây dựng trả lời 13 doanh nghiệp về dự án đường sắt tốc độ cao Bắc - Nam </h4>
+		</div>
+        <hr>
+		   <div class="anh2">
+           <img src="IMG/TrangChu/dai-hoi-xivjpg-1768994476575.webp" width="455px" height="290px">
+         <h4> Đại hội XIV của Đảng điều chỉnh chương trình, bế mạc vào chiều 23/1</h4>
+           </div>
+        </div>
+       <hr>
+	<div class="center">
+        <img src="IMG/TrangChu/chuyen-gia-trung-quoc-ngac-nhien-vi-loi-choi-cua-u23-viet-nam-1768985789279.webp" width="1000px" height="550px">
+         <h2> Chuyên gia Trung Quốc ngạc nhiên vì lối chơi của U23 Việt Nam</h2>
+         <p>Bình luận viên nổi tiếng của Trung Quốc, Huang Jianxiang, thừa nhận ông đã mong đợi U23 Việt Nam thể hiện tốt hơn trong trận đấu với U23 Trung Quốc.</p>
+        </div>
+		<hr>
+	<div class="right">
+        <h5>VFF lên tiếng sau thất bại của U23 Việt Nam, chờ màn so tài với Hàn Quốc</h5>
+         <img src="IMG/TrangChu/u23vn12afc21-1-26jpg-1768978505234.webp" width="280px" height="160px">
+        <hr>
+        <h5>Tổng thống Trump: Mỹ không dùng vũ lực để kiểm soát Greenland</h5>
+         <img src="IMG/TrangChu/trumpafp-1jpg-1769008302760.webp" width="280px" height="160px">
+        <hr>
+        <h5>Tương lai nào cho "NATO không có Mỹ"?</h5>
+         <img src="IMG/TrangChu/image-9png-1768899791025.webp" width="280px" height="160px">
+        <hr>
+       </div>
+      </div>
+<hr>
+<script type="text/javascript">
+     var pictureSrc ="IMG/TrangChu/Screenshot 2026-03-04 220719.png";
+    var pictureWidth = 115; 
+    var pictureHeight = 55; 
+    var numFlakes = 20; 
+    var downSpeed = 0.01;
+    var lrFlakes = 10; 
+
+    if (typeof(numFlakes) != 'number' || Math.round(numFlakes) != numFlakes || numFlakes < 1) {
+        numFlakes = 10;
+    }
+
+    //draw the snowflakes
+    for (var x = 0; x < numFlakes; x++) {
+        if (document.layers) { //releave NS4 bug
+            document.write('<layer id="snFlkDiv' + x + '"><imgsrc="' + pictureSrc + '" height="' + pictureHeight + '"width="' + pictureWidth + '" alt="*" border="0"></layer>');
+        } else {
+            document.write('<div style="position:absolute; z-index:9999;"id="snFlkDiv' + x + '"><img src="' + pictureSrc + '"height="' + pictureHeight + '" width="' + pictureWidth + '" alt="*"border="0"></div>');
+        }
+    }
+
+    //calculate initial positions (in portions of browser window size)
+    var xcoords = new Array(),
+        ycoords = new Array(),
+        snFlkTemp;
+    for (var x = 0; x < numFlakes; x++) {
+        xcoords[x] = (x + 1) / (numFlakes + 1);
+        do {
+            snFlkTemp = Math.round((numFlakes - 1) * Math.random());
+        } while (typeof(ycoords[snFlkTemp]) == 'number');
+        ycoords[snFlkTemp] = x / numFlakes;
+    }
+
+    //now animate
+    function flakeFall() {
+        if (!getRefToDivNest('snFlkDiv0')) {
+            return;
+        }
+        var scrWidth = 0,
+            scrHeight = 0,
+            scrollHeight = 0,
+            scrollWidth = 0;
+        //find screen settings for all variations. doing this every time allows for resizing and scrolling
+        if (typeof(window.innerWidth) == 'number') {
+            scrWidth = window.innerWidth;
+            scrHeight = window.innerHeight;
+        } else {
+            if (document.documentElement && (document.documentElement.clientWidth || document.documentElement.clientHeight)) {
+                scrWidth = document.documentElement.clientWidth;
+                scrHeight = document.documentElement.clientHeight;
+            } else {
+                if (document.body && (document.body.clientWidth || document.body.clientHeight)) {
+                    scrWidth = document.body.clientWidth;
+                    scrHeight = document.body.clientHeight;
+                }
+            }
+        }
+        if (typeof(window.pageYOffset) == 'number') {
+            scrollHeight = pageYOffset;
+            scrollWidth = pageXOffset;
+        } else {
+            if (document.body && (document.body.scrollLeft || document.body.scrollTop)) {
+                scrollHeight = document.body.scrollTop;
+                scrollWidth = document.body.scrollLeft;
+            } else {
+                if (document.documentElement && (document.documentElement.scrollLeft || document.documentElement.scrollTop)) {
+                    scrollHeight = document.documentElement.scrollTop;
+                    scrollWidth = document.documentElement.scrollLeft;
+                }
+            }
+        }
+        //move the snowflakes to their new position
+        for (var x = 0; x < numFlakes; x++) {
+            if (ycoords[x] * scrHeight > scrHeight - pictureHeight) {
+                ycoords[x] = 0;
+            }
+            var divRef = getRefToDivNest('snFlkDiv' + x);
+            if (!divRef) {
+                return;
+            }
+            if (divRef.style) {
+                divRef = divRef.style;
+            }
+            var oPix = document.childNodes ? 'px' : 0;
+            divRef.top = (Math.round(ycoords[x] * scrHeight) + scrollHeight) + oPix;
+            divRef.left = (Math.round(((xcoords[x] * scrWidth) - (pictureWidth / 2)) + ((scrWidth / ((numFlakes + 1) * 4)) * (Math.sin(lrFlakes * ycoords[x]) - Math.sin(3 * lrFlakes * ycoords[x])))) + scrollWidth) + oPix;
+            ycoords[x] += downSpeed;
+        }
+    }
+
+    //DHTML handlers
+    function getRefToDivNest(divName) {
+        if (document.layers) {
+            return document.layers[divName];
+        } //NS4
+        if (document[divName]) {
+            return document[divName];
+        } //NS4 also
+        if (document.getElementById) {
+            return document.getElementById(divName);
+        } //DOM (IE5+, NS6+, Mozilla0.9+, Opera)
+        if (document.all) {
+            return document.all[divName];
+        } //Proprietary DOM - IE4
+        return false;
+    }
+
+    window.setInterval('flakeFall();', 100);
+    //]]>
+</script>
+<script type="text/javascript">
+    var pictureSrc ="IMG/TrangChu/Screenshot 2026-03-04 215932.png";
+    var pictureWidth = 35; 
+    var pictureHeight = 35; 
+    var numFlakes = 20; 
+    var downSpeed = 0.01; 
+    var lrFlakes = 10; 
+
+
+    if (typeof(numFlakes) != 'number' || Math.round(numFlakes) != numFlakes || numFlakes < 1) {
+        numFlakes = 10;
+    }
+
+    //draw the snowflakes
+    for (var x = 0; x < numFlakes; x++) {
+        if (document.layers) { //releave NS4 bug
+            document.write('<layer id="snFlkDiv' + x + '"><imgsrc="' + pictureSrc + '" height="' + pictureHeight + '"width="' + pictureWidth + '" alt="*" border="0"></layer>');
+        } else {
+            document.write('<div style="position:absolute; z-index:9999;"id="snFlkDiv' + x + '"><img src="' + pictureSrc + '"height="' + pictureHeight + '" width="' + pictureWidth + '" alt="*"border="0"></div>');
+        }
+    }
+
+    //calculate initial positions (in portions of browser window size)
+    var xcoords = new Array(),
+        ycoords = new Array(),
+        snFlkTemp;
+    for (var x = 0; x < numFlakes; x++) {
+        xcoords[x] = (x + 1) / (numFlakes + 1);
+        do {
+            snFlkTemp = Math.round((numFlakes - 1) * Math.random());
+        } while (typeof(ycoords[snFlkTemp]) == 'number');
+        ycoords[snFlkTemp] = x / numFlakes;
+    }
+
+    //now animate
+    function flakeFall() {
+        if (!getRefToDivNest('snFlkDiv0')) {
+            return;
+        }
+        var scrWidth = 0,
+            scrHeight = 0,
+            scrollHeight = 0,
+            scrollWidth = 0;
+        //find screen settings for all variations. doing this every time allows for resizing and scrolling
+        if (typeof(window.innerWidth) == 'number') {
+            scrWidth = window.innerWidth;
+            scrHeight = window.innerHeight;
+        } else {
+            if (document.documentElement && (document.documentElement.clientWidth || document.documentElement.clientHeight)) {
+                scrWidth = document.documentElement.clientWidth;
+                scrHeight = document.documentElement.clientHeight;
+            } else {
+                if (document.body && (document.body.clientWidth || document.body.clientHeight)) {
+                    scrWidth = document.body.clientWidth;
+                    scrHeight = document.body.clientHeight;
+                }
+            }
+        }
+        if (typeof(window.pageYOffset) == 'number') {
+            scrollHeight = pageYOffset;
+            scrollWidth = pageXOffset;
+        } else {
+            if (document.body && (document.body.scrollLeft || document.body.scrollTop)) {
+                scrollHeight = document.body.scrollTop;
+                scrollWidth = document.body.scrollLeft;
+            } else {
+                if (document.documentElement && (document.documentElement.scrollLeft || document.documentElement.scrollTop)) {
+                    scrollHeight = document.documentElement.scrollTop;
+                    scrollWidth = document.documentElement.scrollLeft;
+                }
+            }
+        }
+        //move the snowflakes to their new position
+        for (var x = 0; x < numFlakes; x++) {
+            if (ycoords[x] * scrHeight > scrHeight - pictureHeight) {
+                ycoords[x] = 0;
+            }
+            var divRef = getRefToDivNest('snFlkDiv' + x);
+            if (!divRef) {
+                return;
+            }
+            if (divRef.style) {
+                divRef = divRef.style;
+            }
+            var oPix = document.childNodes ? 'px' : 0;
+            divRef.top = (Math.round(ycoords[x] * scrHeight) + scrollHeight) + oPix;
+            divRef.left = (Math.round(((xcoords[x] * scrWidth) - (pictureWidth / 2)) + ((scrWidth / ((numFlakes + 1) * 4)) * (Math.sin(lrFlakes * ycoords[x]) - Math.sin(3 * lrFlakes * ycoords[x])))) + scrollWidth) + oPix;
+            ycoords[x] += downSpeed;
+        }
+    }
+
+    //DHTML handlers
+    function getRefToDivNest(divName) {
+        if (document.layers) {
+            return document.layers[divName];
+        } //NS4
+        if (document[divName]) {
+            return document[divName];
+        } //NS4 also
+        if (document.getElementById) {
+            return document.getElementById(divName);
+        } //DOM (IE5+, NS6+, Mozilla0.9+, Opera)
+        if (document.all) {
+            return document.all[divName];
+        } //Proprietary DOM - IE4
+        return false;
+    }
+
+    window.setInterval('flakeFall();', 100);
+    //]]>
+</script>
